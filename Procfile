@@ -1,1 +1,1 @@
-web:gunicorn -w 2 -k uvicorn.workers.UvicornWorker mlapi:app
+web: gunicorn -w 2 -k uvicorn.workers.UvicornWorker mlapi:app
